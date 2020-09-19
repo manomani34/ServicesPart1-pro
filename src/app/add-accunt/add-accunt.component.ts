@@ -16,7 +16,7 @@ export class AddAccuntComponent implements OnInit {
   ngOnInit(): void {
   }
   addNewAccunt(){
-    let a: IAccunt = (name: this.username, password: this.password);
+    let a: IAccunt = {name: this.username , password: this.password};
   }
 
 }
