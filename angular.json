@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ServicesPart1-pro"
+    }
+  },
+  "defaultProject": "ServicesPart1-pro",
+  "cli": {
+    "analytics": false
+  }
 }
